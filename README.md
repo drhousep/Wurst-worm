@@ -10,7 +10,7 @@ check it out! -Wurst Fri 11/13/2026
 ```
 After this, it writes a resource exhauster to the Startup folder. What this means is that every time you boot up into the computer, the resource exhauster runs and starves the computer of resources. When it's done writing the resource exhauster, it displays it's ASCII message. For more details, check out wurst-format.bat
 
-Please note that this worm was made for educational and research purposes, I am not responsible for any of your actions.
+Please note that this worm was made for educational and research purposes, I am not responsible for any of your actions. Pranking your friends with Wurst or using it maliciously is a [cybercrime](https://www.cps.gov.uk/prosecution-guidance/cybercrime-prosecution-guidance).
 ## The fix?
 A fix I made is to check if it's Command Prompt and to check if the Command Prompt process is titled "Wurst". Although not foolproof and innocent programs going under that name can get blocked, it is pretty effective. Reminds me of Creeper and Reaper.
 ## Remediation
