@@ -14,4 +14,4 @@ After this, it writes a resource exhauster to the Startup folder. What this mean
 ## The fix?
 A fix I made is to check if it's Command Prompt and to check if the Command Prompt process is titled "Wurst". Although not foolproof and innocent programs going under that name can get blocked, it is pretty effective. Reminds me of Creeper and Reaper.
 ## Remediation
-To remediate, try and stop the script from running. Once you stopped the script, use the command prompt to kill all of the tasks. If you cannot, boot up a Windows PE (e.g. Sergei Strelec) and delete the Mad.bat file from there.
+To remediate, try and stop the script from running. Once you stopped the script, use the command prompt to kill all of the tasks. If you cannot, boot up a Windows PE (e.g. Sergei Strelec) and delete the Mad.bat file from there. ***There is no need for you to factory reset your computer***
