@@ -21,3 +21,5 @@ A fix I made is to check if it's Command Prompt and to check if the Command Prom
 ## Remediation
 To remediate, try and stop the script from running. Once you stopped the script, use the command prompt to kill all of the tasks. If you cannot, boot up a Windows PE (e.g. Sergei Strelec) and delete the Mad.bat file from there. ***There is no need for you to factory reset your computer***.
 I believe you can use WinRE aswell to remove the mad.bat script.
+
+To remove the messages it sent, you edit them out using a program like notepad.
