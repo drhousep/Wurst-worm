@@ -11,6 +11,11 @@ check it out! -Wurst Fri 11/13/2026
 -Wurst Fri 11/13/2026
 ```
 After this, it writes a resource exhauster to the Startup folder. What this means is that every time you boot up into the computer, the resource exhauster runs and starves the computer of resources. When it's done writing the resource exhauster, it displays it's ASCII message. For more details, check out wurst-format.bat
+## Why?
+While programming Perchat, I used text to save chatlogs. Obviously, this is not the best decision as malware can self-replicate to these files or take information from them. Wurst is an example of this issue.
+
+I am currently working on a fork(?) on Perchat titled Kolmitt which resolves these issues within the program.
+
 ## Blocking the worm
 A fix I made is to check if it's Command Prompt and to check if the Command Prompt process is titled "Wurst". Although not foolproof and innocent programs going under that name can get blocked, it is pretty effective. Reminds me of Creeper and Reaper.
 ## Remediation
