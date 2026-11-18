@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Please note that this worm was made for educational and research purposes. I do not condone pranking your friends with Wurst or using it maliciously as doing that constitutes as a [cybercrime](https://www.cps.gov.uk/prosecution-guidance/cybercrime-prosecution-guidance).
+> Please note that this worm was made for educational and research purposes. I do not condone pranking your friends with Wurst or using it maliciously because that constitutes as a [cybercrime](https://www.cps.gov.uk/prosecution-guidance/cybercrime-prosecution-guidance).
 > I am not responsible for any of your decisions.
 # Wurst worm
 This is a self-made worm/malware that targets \*.cht (Perchat chat) files.
