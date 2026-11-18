@@ -11,7 +11,8 @@ check it out! -Wurst Fri 11/13/2026
 -Wurst Fri 11/13/2026
 ```
 After this, it writes a resource exhauster to the Startup folder. What this means is that every time you boot up into the computer, the resource exhauster runs and starves the computer of resources. When it's done writing the resource exhauster, it displays it's ASCII message. For more details, check out wurst-format.bat
-## The fix?
+## Blocking the worm
 A fix I made is to check if it's Command Prompt and to check if the Command Prompt process is titled "Wurst". Although not foolproof and innocent programs going under that name can get blocked, it is pretty effective. Reminds me of Creeper and Reaper.
 ## Remediation
-To remediate, try and stop the script from running. Once you stopped the script, use the command prompt to kill all of the tasks. If you cannot, boot up a Windows PE (e.g. Sergei Strelec) and delete the Mad.bat file from there. ***There is no need for you to factory reset your computer***
+To remediate, try and stop the script from running. Once you stopped the script, use the command prompt to kill all of the tasks. If you cannot, boot up a Windows PE (e.g. Sergei Strelec) and delete the Mad.bat file from there. ***There is no need for you to factory reset your computer***.
+I believe you can use WinRE aswell to remove the mad.bat script.
